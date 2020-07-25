@@ -50,6 +50,12 @@ body {
     margin-left: -100px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #box2 {
     margin-right: -100px;
 }
@@ -62,8 +68,15 @@ body {
 
 
 .box-white {
-    min-height: 510px;
     padding: 5px;
+    margin: 5px;
+    max-width: 880px;
+    background: rgb(255, 255, 255); 
+}
+
+.box-visualization {
+    padding: 5px;
+    margin: 5px;
     background: rgb(255, 255, 255); 
 }
 

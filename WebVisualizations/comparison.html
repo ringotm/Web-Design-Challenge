@@ -34,7 +34,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#">Comparison</a>
+          <a class="nav-link text-light" href="comparison.html">Comparison</a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="data.html">Data</a>
@@ -46,47 +46,28 @@
 
   <div class='container-fluid py-5 px-5'>
     <div class="row">
-      <div class="col-md-7">
-        <div class='box-white'>
-          <h1 class='ml-3 mb-3 pt-3 text-dark font-weight-bold'>Summary: Latitude vs. X</h1>
+      <div class="col-12">
+        <div class='box-visualization'>
+          <h1 class='ml-3 mb-3 pt-3 text-dark font-weight-bold'>Comparison: Latitude vs. X</h1>
           <hr class="mx-3 hr-color">
-          <img src='Resources\Images\latitude_vs_temp_all_data.png' class='img-fluid' width=350 height=340 align='left'>
-          <p class='text-muted'>This project analyzes the relationships of weather characteristics vs. latitude for
-            cities across the globe. A random distribution of cities spanning the entire range of latitude and
-            longitudes was chosen so as to get an unbiased assessment. Weather data was then pulled from the
-            OpenWeatherMap API. The weather parameters chosen to investigate were maximum temperature, humidity,
-            cloudiness, and wind speed.</p>
-          <p class='text-muted'>After data was pulled in from the API, the matplotlib library within python was used to
-            create scatter plots to visually investigate the relationships. Separate pages are provided for each
-            visualization along w/ a short description. The source data is also provided as a table. Keep in mind the
-            date the data was pulled (06/15/20) when making conclusions as weather patterns can be affected by
-            seasonality.</p>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div class="box-white">
-          <h3 class='ml-3 mb-3 pt-3 text-dark font-weight-bold'>Visualizations</h3>
-          <hr class="mx-3 hr-color">
+          <p class='text-muted mx-3'>Click a plot to get an in-depth analysis.</p>
           <div class='row'>
-            <div class='col-3 col-md-6'>
+            <div class='col-12 col-md-6'>
               <a href='temp.html'><img src='Resources\Images\latitude_vs_temp_all_data.png' class='img-fluid'></a>
             </div>
-            <div class='col-3 col-md-6'>
+            <div class='col-12 col-md-6'>
               <a href='humidity.html'><img src='Resources\Images\latitude_vs_humidity_all_data.png'
                   class='img-fluid'></a>
             </div>
 
 
-            <div class='col-3 col-md-6'>
+            <div class='col-12 col-md-6'>
               <a href='cloudiness.html'><img src='Resources\Images\latitude_vs_cloudiness_all_data.png'
                   class='img-fluid'></a>
-
             </div>
-            <div class='col-3 col-md-6'>
+            <div class='col-12 col-md-6'>
               <a href='wind.html'><img src='Resources\Images\latitude_vs_wind_all_data.png' class='img-fluid'></a>
             </div>
-
-
           </div>
         </div>
       </div>
